@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xms.alpha.scienceaidalpha"
+    android:installLocation="internalOnly"
+    android:versionCode="13"
+    android:versionName="Beta 2.0" > <!-- Remember to edit String Version Number and About Page. -->
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:fadeScrollbars="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name_user"
+        android:scrollbarStyle="outsideOverlay"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.xms.alpha.scienceaidalpha.SplashActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name_user"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.xms.alpha.scienceaidalpha.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name_user"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

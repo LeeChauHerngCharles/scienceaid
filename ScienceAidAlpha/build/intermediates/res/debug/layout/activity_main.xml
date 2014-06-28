@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="20"
+    tools:context=".MainActivity" >
+
+    <WebView
+        android:id="@+id/webView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="17"
+        android:fadeScrollbars="true"
+        android:scrollbarStyle="outsideOverlay"
+        />
+
+   <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="3"
+        android:weightSum="3" 
+        >
+
+        <Button
+            android:id="@+id/btnbio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/biologybtn"
+            android:textColor="@color/text_color"
+            android:onClick="biology" />
+
+        <Button
+            android:id="@+id/btnphy"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/button"
+            android:text="@string/physicsbtn"
+            android:textColor="@color/text_color"
+            android:onClick="physics" />
+
+    	 <Button
+       	    android:id="@+id/btnchem"
+        	style="android:buttonStyle"
+      	    android:layout_width="fill_parent"
+      	    android:layout_height="match_parent"
+         	android:layout_weight="1"
+     	    android:background="@drawable/button"
+    	    android:text="@string/chemistrybtn"
+   	        android:textColor="@color/text_color"
+    	    android:onClick="chemistry" />
+
+    </LinearLayout>
+    </LinearLayout><!-- From: file:/Users/admin/Dropbox/workspace/ScienceAidAlpha/res/layout/activity_main.xml -->

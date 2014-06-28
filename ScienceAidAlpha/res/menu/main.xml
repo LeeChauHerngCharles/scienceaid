@@ -1,0 +1,6 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/btnprev" android:icon="@drawable/prev" android:title="@string/action_prev" android:showAsAction="ifRoom"></item>
+    <item android:id="@+id/about" android:icon="@drawable/about" android:title="@string/action_about" android:showAsAction="always"></item>
+    <item android:id="@+id/search" android:icon="@drawable/search" android:title="@string/action_search" android:showAsAction="always"></item>
+
+</menu>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/admin/Dropbox/workspace/build/intermediates/exploded-aar/workspace.JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/unspecified/res/values-w360dp-v13/values.xml -->
+    <eat-comment />
+
+    <integer name="abs__max_action_buttons">3</integer>
+
+</resources>

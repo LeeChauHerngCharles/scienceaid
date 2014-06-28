@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="unspecified" >
+        <source path="/Users/admin/Dropbox/workspace/build/intermediates/exploded-aar/workspace.JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/unspecified/assets" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets" >
+            <file
+                name="www/about.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/about.html" />
+            <file
+                name="www/background.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/background.html" />
+            <file
+                name="www/biology/cells/cell.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/cells/cell.html" />
+            <file
+                name="www/biology/cells/specialise.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/cells/specialise.html" />
+            <file
+                name="www/biology/cells.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/cells.html" />
+            <file
+                name="www/biology/enzymes/characteristics.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/enzymes/characteristics.html" />
+            <file
+                name="www/biology/enzymes/classification.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/enzymes/classification.html" />
+            <file
+                name="www/biology/enzymes/enzymes.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/enzymes/enzymes.html" />
+            <file
+                name="www/biology/enzymes.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/enzymes.html" />
+            <file
+                name="www/biology/mos/active.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/mos/active.html" />
+            <file
+                name="www/biology/mos/diffusion.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/mos/diffusion.html" />
+            <file
+                name="www/biology/mos/osmosis.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/mos/osmosis.html" />
+            <file
+                name="www/biology/mos/satovr.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/mos/satovr.html" />
+            <file
+                name="www/biology/mos.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/mos.html" />
+            <file
+                name="www/biology/nutrients/carbos.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients/carbos.html" />
+            <file
+                name="www/biology/nutrients/fats.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients/fats.html" />
+            <file
+                name="www/biology/nutrients/food.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients/food.html" />
+            <file
+                name="www/biology/nutrients/protein.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients/protein.html" />
+            <file
+                name="www/biology/nutrients/water.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients/water.html" />
+            <file
+                name="www/biology/nutrients.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/nutrients.html" />
+            <file
+                name="www/biology/science/characteristics.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/science/characteristics.html" />
+            <file
+                name="www/biology/science/classification.jpg"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/science/classification.jpg" />
+            <file
+                name="www/biology/science/classifying.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/science/classifying.html" />
+            <file
+                name="www/biology/science.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology/science.html" />
+            <file
+                name="www/biology.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/biology.html" />
+            <file
+                name="www/changelog.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/changelog.html" />
+            <file
+                name="www/chemistry/atomic/atoms.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/atomic/atoms.html" />
+            <file
+                name="www/chemistry/atomic/electronic.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/atomic/electronic.html" />
+            <file
+                name="www/chemistry/atomic/isotopes.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/atomic/isotopes.html" />
+            <file
+                name="www/chemistry/atomic.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/atomic.html" />
+            <file
+                name="www/chemistry/covmetal/covalent.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/covmetal/covalent.html" />
+            <file
+                name="www/chemistry/covmetal/metallic.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/covmetal/metallic.html" />
+            <file
+                name="www/chemistry/covmetal/properties.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/covmetal/properties.html" />
+            <file
+                name="www/chemistry/covmetal/properties_clip_image002.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/covmetal/properties_clip_image002.png" />
+            <file
+                name="www/chemistry/covmetal.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/covmetal.html" />
+            <file
+                name="www/chemistry/ecm/compounds.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ecm/compounds.html" />
+            <file
+                name="www/chemistry/ecm/elements.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ecm/elements.html" />
+            <file
+                name="www/chemistry/ecm/mixtures.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ecm/mixtures.html" />
+            <file
+                name="www/chemistry/ecm/molecules.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ecm/molecules.html" />
+            <file
+                name="www/chemistry/ecm.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ecm.html" />
+            <file
+                name="www/chemistry/ionic/anions.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic/anions.html" />
+            <file
+                name="www/chemistry/ionic/bonding.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic/bonding.html" />
+            <file
+                name="www/chemistry/ionic/cations.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic/cations.html" />
+            <file
+                name="www/chemistry/ionic/properties.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic/properties.html" />
+            <file
+                name="www/chemistry/ionic/stable.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic/stable.html" />
+            <file
+                name="www/chemistry/ionic.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/ionic.html" />
+            <file
+                name="www/chemistry/kinetic/cos.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/kinetic/cos.html" />
+            <file
+                name="www/chemistry/kinetic/diff.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/kinetic/diff.html" />
+            <file
+                name="www/chemistry/kinetic/kpt.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/kinetic/kpt.html" />
+            <file
+                name="www/chemistry/kinetic/som.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/kinetic/som.html" />
+            <file
+                name="www/chemistry/kinetic.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry/kinetic.html" />
+            <file
+                name="www/chemistry.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/chemistry.html" />
+            <file
+                name="www/css/images/ajax-loader.gif"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/images/ajax-loader.gif" />
+            <file
+                name="www/css/images/icons-18-black.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/images/icons-18-black.png" />
+            <file
+                name="www/css/images/icons-18-white.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/images/icons-18-white.png" />
+            <file
+                name="www/css/images/icons-36-black.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/images/icons-36-black.png" />
+            <file
+                name="www/css/images/icons-36-white.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/images/icons-36-white.png" />
+            <file
+                name="www/css/jquery-1.9.1.min.js"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/jquery-1.9.1.min.js" />
+            <file
+                name="www/css/jquery.mobile-1.3.1.css"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/jquery.mobile-1.3.1.css" />
+            <file
+                name="www/css/jquery.mobile-1.3.1.min.js"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/css/jquery.mobile-1.3.1.min.js" />
+            <file
+                name="www/fonts/Roboto-Light-webfont.eot"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Light-webfont.eot" />
+            <file
+                name="www/fonts/Roboto-Light-webfont.svg"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Light-webfont.svg" />
+            <file
+                name="www/fonts/Roboto-Light-webfont.ttf"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Light-webfont.ttf" />
+            <file
+                name="www/fonts/Roboto-Light-webfont.woff"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Light-webfont.woff" />
+            <file
+                name="www/fonts/Roboto-Regular-webfont.eot"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Regular-webfont.eot" />
+            <file
+                name="www/fonts/Roboto-Regular-webfont.svg"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Regular-webfont.svg" />
+            <file
+                name="www/fonts/Roboto-Regular-webfont.ttf"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Regular-webfont.ttf" />
+            <file
+                name="www/fonts/Roboto-Regular-webfont.woff"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/fonts/Roboto-Regular-webfont.woff" />
+            <file
+                name="www/physics/dynamics/fandmotion.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/dynamics/fandmotion.html" />
+            <file
+                name="www/physics/dynamics/forces.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/dynamics/forces.html" />
+            <file
+                name="www/physics/dynamics/friction.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/dynamics/friction.html" />
+            <file
+                name="www/physics/dynamics.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/dynamics.html" />
+            <file
+                name="www/physics/kinematics/dst.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics/dst.html" />
+            <file
+                name="www/physics/kinematics/dva.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics/dva.html" />
+            <file
+                name="www/physics/kinematics/f_acceleration.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics/f_acceleration.png" />
+            <file
+                name="www/physics/kinematics/f_speed.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics/f_speed.png" />
+            <file
+                name="www/physics/kinematics/freefall.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics/freefall.html" />
+            <file
+                name="www/physics/kinematics.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/kinematics.html" />
+            <file
+                name="www/physics/mass/gfs.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/mass/gfs.html" />
+            <file
+                name="www/physics/mass/massandvol.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/mass/massandvol.html" />
+            <file
+                name="www/physics/mass/massvsweight.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/mass/massvsweight.html" />
+            <file
+                name="www/physics/mass.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/mass.html" />
+            <file
+                name="www/physics/quantities/length.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/quantities/length.html" />
+            <file
+                name="www/physics/quantities/physical.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/quantities/physical.html" />
+            <file
+                name="www/physics/quantities/time.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/quantities/time.html" />
+            <file
+                name="www/physics/quantities.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/quantities.html" />
+            <file
+                name="www/physics/turning/centreofg.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/turning/centreofg.html" />
+            <file
+                name="www/physics/turning/effectofcog.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/turning/effectofcog.html" />
+            <file
+                name="www/physics/turning/moments.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/turning/moments.html" />
+            <file
+                name="www/physics/turning.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics/turning.html" />
+            <file
+                name="www/physics.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/physics.html" />
+            <file
+                name="www/res/ic_launcher.png"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/res/ic_launcher.png" />
+            <file
+                name="www/search.html"
+                path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/assets/www/search.html" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/admin/Dropbox/workspace/ScienceAidAlpha/build-types/debug/assets" />
+    </dataSet>
+
+</merger>
