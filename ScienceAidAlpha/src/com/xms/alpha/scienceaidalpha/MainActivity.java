@@ -9,6 +9,9 @@ import android.webkit.WebView;
 import com.actionbarsherlock.app.SherlockActivity;
 import com.actionbarsherlock.view.Menu;
 import com.actionbarsherlock.view.MenuItem;
+//import com.espian.showcaseview.ShowcaseView;
+//import com.espian.showcaseview.targets.ViewTarget;
+//import com.espian.showcaseview.OnShowcaseEventListener;
 //import com.github.espiandev.showcaseview.ShowcaseView;
 //Load ActionBarSherlock equivalents of the Android UI elements
 
@@ -76,15 +79,19 @@ public class MainActivity extends SherlockActivity { //note: extend SherlockActi
 	    return super.onKeyDown(keyCode, event);
 	}	
 	
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getSupportMenuInflater().inflate(R.menu.main, menu); //getSupportMenuInflator - Sherlock. getMenuInflator is the Android one.
 
 //		ShowcaseView.ConfigOptions co = new ShowcaseView.ConfigOptions();
 //		co.shotType = ShowcaseView.TYPE_ONE_SHOT;
-//        
-//		sv = ShowcaseView.insertShowcaseViewWithType(ShowcaseView.ITEM_ACTION_ITEM, R.id.search, this,
-//      R.string.showcase_title, R.string.showcase_content, co);
+//		
+//		ViewTarget target = new ViewTarget(R.id.search, this);
+//		sv = ShowcaseView.insertShowcaseView(target, this, R.string.showcase_title, R.string.showcase_content, co);
+//		sv.setOnShowcaseEventListener(this);
+
+    
 		
 		return true;
 	}
