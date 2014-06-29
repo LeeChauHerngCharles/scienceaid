@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+	<!-- define strings used in XML file for layout in Main Activity -->
     <string name="app_name">ScienceAid Alpha</string>
     <string name="app_name_true">ScienceAid</string>
     <string name="app_name_user">ScienceAid</string>
@@ -14,6 +14,4 @@
     <string name="physicsbtn">Physics</string>
     <string name="chemistrybtn">Chemistry</string>
     <string name="action_settings">Settings</string>
-    <string name="showcase_title">Information/Search</string>
-    <string name="showcase_content">• Infromation and Contact Us \n• Intelligent Search Engine for chapters and pages</string>
 </resources>
