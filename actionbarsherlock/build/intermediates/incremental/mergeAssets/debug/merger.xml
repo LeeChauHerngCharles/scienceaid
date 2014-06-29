@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/admin/Dropbox/workspace/JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/assets" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/admin/Dropbox/workspace/JakeWharton-ActionBarSherlock-071a61c/actionbarsherlock/build-types/debug/assets" />
+    </dataSet>
+
+</merger>
