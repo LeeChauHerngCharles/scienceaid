@@ -1,3 +1,7 @@
+//main activity containing webView for HTML files
+//for assets and HTML pages, look in assets folder
+//for layout xml, look in res/layout/activity_main.xml
+//for string values, look in res/values/strings
 package com.xms.alpha.scienceaidalpha;
 
 import android.os.Bundle;
@@ -15,12 +19,12 @@ public class MainActivity extends SherlockActivity { //note: extend SherlockActi
         
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		getSupportActionBar().setTitle(R.string.app_name_user);
+		getSupportActionBar().setTitle(R.string.app_name_user);	//sets the title on the ActionBar to R.string.app_name_user
 		setContentView(R.layout.activity_main);
 		//define WebView name as [app]
 		 WebView app = (WebView) findViewById(R.id.webView1); //define webView id for future reference to it
-		 	app.loadUrl("file:///android_asset/www/background.html"); //load the first page
-			WebSettings appSettings = app.getSettings(); //define name for WebView settings page and retrive properties of settings
+		 	app.loadUrl("file:///android_asset/www/background.html"); //load the first page from assets
+			WebSettings appSettings = app.getSettings(); //define name for WebView settings page and retrieve properties of settings
 			appSettings.setJavaScriptEnabled(true);  //setJavaScriptEnabled to use JavaScript in webView, which is req. in the HTML files
 			try {
 				appSettings.setAllowUniversalAccessFromFileURLs(true);  //required for jQuery Mobile to work on Android 4.x
@@ -76,31 +80,32 @@ public class MainActivity extends SherlockActivity { //note: extend SherlockActi
 	}	
 	
 
+	//code to retrieve ActionBarSherlock Menu
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		getSupportMenuInflater().inflate(R.menu.main, menu); //getSupportMenuInflator - Sherlock. getMenuInflator is the Android one.
-		
+															 //note: retrieve values for menu items from file res/menu/main.xml
 		return true;
 	}
 	
+	//set items in ActionBarSherlock
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
 	    // Handle item selection in the ActionBar. Items are defined in menu.xml
-	WebView app = (WebView) findViewById(R.id.webView1);
+	WebView app = (WebView) findViewById(R.id.webView1);	//relink webView1 with WebView app
 	    int itemId = item.getItemId();
 	    //first button is back button
-		if (itemId == R.id.btnprev) {		//allocate id for back button
+		if (itemId == R.id.btnprev) {		//allocate/reference id for back button for layout
 			app.goBack();					//on click, the button will force the WebView [id:webView 1] to go back
 			return true;
-		//if there is enough space, introduce button for about us/information page
-		} else if (itemId == R.id.about) {		//allocate id for about button
+		//introduce button for about us/information page
+		} else if (itemId == R.id.about) {		//allocate/reference id for about button for layout
 			app.loadUrl("file:///android_asset/www/about.html");	//on click, the button will force the WebView to load about.html from assets
 			return true;
-		//if there is further space, introduce search button
-		} else if (itemId == R.id.search) {		//allocate id for search button
+		//introduce search button
+		} else if (itemId == R.id.search) {		//allocate/reference id for search button for layout
 			app.loadUrl("file:///android_asset/www/search.html");	//on click, the button will force the WebView to load search.html from assets
 			return true;
-		//note: if there isn't enough space, the buttons will either appear as 3 dot overflow or accesible with menu button.
 		} else {
 			return super.onOptionsItemSelected(item);
 		}

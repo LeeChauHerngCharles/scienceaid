@@ -2,5 +2,8 @@
     <item android:id="@+id/btnprev" android:icon="@drawable/prev" android:title="@string/action_prev" android:showAsAction="ifRoom"></item>
     <item android:id="@+id/about" android:icon="@drawable/about" android:title="@string/action_about" android:showAsAction="always"></item>
     <item android:id="@+id/search" android:icon="@drawable/search" android:title="@string/action_search" android:showAsAction="always"></item>
-
+<!-- android:showAsAction defines the allocation of space and depending on the real estate avaliable, what is shown -->
+<!-- android:id links the attributes following to the .java file and layout file -->
+<!-- icon and title provides an icon or title for the button
+	 for icons, look in res/drawable-... -->
 </menu>
