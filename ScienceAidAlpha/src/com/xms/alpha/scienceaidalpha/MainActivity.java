@@ -35,14 +35,15 @@ public class MainActivity extends SherlockActivity { //note: extend SherlockActi
 			}
 			//appSettings for WebView to increase fluidity and speed, reduction in lag.
 			//Certain of the following may just be placebos
-			appSettings.setRenderPriority(RenderPriority.HIGH);
-			appSettings.setCacheMode(WebSettings.LOAD_DEFAULT); 
-            appSettings.setJavaScriptEnabled(true);
-            appSettings.setDomStorageEnabled(true);
-            appSettings.setAppCacheEnabled(true);
-            appSettings.setSupportZoom(false);
-            appSettings.setAllowFileAccess(true);
-            appSettings.setLoadsImagesAutomatically(true);
+			appSettings.setRenderPriority(RenderPriority.HIGH);		//set renderpriority of html pages to high to increase render speed
+			appSettings.setCacheMode(WebSettings.LOAD_DEFAULT);		//set webView to use either cache or assets file, which ever is avaliable
+            appSettings.setJavaScriptEnabled(true);		//enable javascript in html documents
+        	appSettings.setDomStorageEnabled(true);		//enable database storage of webpages
+            appSettings.setAppCacheEnabled(true);		//enable caching of pages to speed up future access speed
+            //note:datebase storage and cache works on webpages accessed from the internet
+            appSettings.setSupportZoom(false);		//prevent zoom on html pages which are already mobile-themed
+            appSettings.setAllowFileAccess(true);		//allows webView to access assets
+            appSettings.setLoadsImagesAutomatically(true);		//allows images in webpages to be loaded immediately instead of when viewed.
             app.setScrollBarStyle(WebView.SCROLLBARS_OUTSIDE_OVERLAY); //note: to remove unsightly scrollbars in Android 2.x
             
           	}
@@ -51,7 +52,7 @@ public class MainActivity extends SherlockActivity { //note: extend SherlockActi
 	public void physics(View view)
 	{
 		WebView app = (WebView) findViewById(R.id.webView1);		//upon click, the button will force WebView to load physics.html
-		app.loadUrl("file:///android_asset/www/physics.html");
+		app.loadUrl("file:///android_asset/www/physics.html");		//app.loadUrl gives the command to load the url specified upon click
 	}
 
 	public void chemistry(View view)
