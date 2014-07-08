@@ -790,6 +790,7 @@ containing a value of this type.
          */
         public static final int abs__search_view_text_min_width=0x7f07000b;
         /**  Default screen margins, per the Android Design guidelines. 
+ dp is not affected by a device's screen size and will accustom and accomodate itself to the device. 
 
          Customize dimensions originally defined in res/values/dimens.xml (such as
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.

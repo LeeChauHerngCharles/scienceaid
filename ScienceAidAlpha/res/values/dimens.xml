@@ -1,6 +1,7 @@
 <resources>
 
     <!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- dp is not affected by a device's screen size and will accustom and accomodate itself to the device. -->
     <dimen name="activity_horizontal_margin">0dp</dimen>
     <dimen name="activity_vertical_margin">0dp</dimen>
     <dimen name="app_version_splash">8dp</dimen>

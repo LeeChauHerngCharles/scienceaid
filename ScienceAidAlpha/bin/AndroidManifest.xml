@@ -5,11 +5,11 @@
     android:versionCode="13"
     android:versionName="Beta 2.0" >
 	<!-- Remember to edit String Version Number and About Page. -->
-    
+    <!-- Define level of sdk to compile with and its compatibility. -->
     <uses-sdk
         android:minSdkVersion="16"
         android:targetSdkVersion="18" />
-
+	<!-- properties of the application, look up android developers website for more information -->
     <application
         android:allowBackup="true"
         android:fadeScrollbars="true"
@@ -25,7 +25,6 @@
             android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
