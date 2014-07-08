@@ -1,5 +1,6 @@
 scienceaid
 ==========
+Google Group: https://groups.google.com/forum/#!forum/xinfomedia
 
 Xinfomedia ScienceAid Application Resources
 -------------------------------------------
